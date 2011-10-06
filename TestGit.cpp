@@ -7,13 +7,15 @@ NTSTATUS TestGitDefaultHandler(IN PDEVICE_OBJECT DeviceObject, IN PIRP Irp);
 #ifdef __cplusplus
 extern "C" NTSTATUS DriverEntry(IN PDRIVER_OBJECT DriverObject, IN PUNICODE_STRING  RegistryPath);
 #endif
-
+// Added code here
 NTSTATUS DriverEntry(IN PDRIVER_OBJECT DriverObject, IN PUNICODE_STRING  RegistryPath)
 {
 	UNICODE_STRING DeviceName,Win32Device;
 	PDEVICE_OBJECT DeviceObject = NULL;
 	NTSTATUS status;
 	unsigned i;
+
+
 
 	RtlInitUnicodeString(&DeviceName,L"\\Device\\TestGit0");
 	RtlInitUnicodeString(&Win32Device,L"\\DosDevices\\TestGit0");
