@@ -1,0 +1,5 @@
+TARGETNAME=TestGit
+TARGETTYPE=DRIVER
+
+SOURCES=stdafx.cpp \
+	TestGit.cpp
