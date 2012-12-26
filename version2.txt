@@ -3,4 +3,6 @@ This is the version2 branch.
 /* MASTER this is a comment */
 /* ISSUE3 not an issue updated fixed. Edit this is a comment */
 /* NO NO ISSUE3 fixed. Edit this is a comment */
+MASTER version
+
 
